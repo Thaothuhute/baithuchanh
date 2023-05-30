@@ -1,0 +1,9 @@
+com\example\book\repository\ICategoryRepository.class
+com\example\book\Controller\BookController.class
+com\example\book\AppConfig.class
+com\example\book\repository\IBookRepository.class
+com\example\book\BookApplication.class
+com\example\book\Controller\HomeCotroller.class
+com\example\book\Controller\BookService.class
+com\example\book\Model\Book.class
+com\example\book\Model\Category.class
