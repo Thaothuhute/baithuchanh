@@ -61,7 +61,7 @@ public  class BookController {
     @GetMapping("/delete/{id}")
     public String deleteBook(@PathVariable("id") Long id) {
         categoryService.deleteCate(id);
-        return "redirect:/categories";
+        return "redirect:/books";
     }
     @GetMapping("/edit/{id}")
     public String editBookForm(@PathVariable("id") Long id, Model model) {
